@@ -1,15 +1,39 @@
 {
     "baterii": [
         {
-            "capacitate": 0,
-            "greutate": 0
+            "capacitate": 1300,
+            "greutate": 107
+        },
+        {
+            "capacitate": 1300,
+            "greutate": 107
         }
     ],
-    "greutateDrona": 0,
+    "greutateDrona": 500,
     "profilEnegieMotoare": [
         {
             "intensitate": 0,
             "putere": 0
+        },
+        {
+            "intensitate": 620,
+            "putere": 102
+        },
+        {
+            "intensitate": 1360,
+            "putere": 192
+        },
+        {
+            "intensitate": 2290,
+            "putere": 281
+        },
+        {
+            "intensitate": 3540,
+            "putere": 357
+        },
+        {
+            "intensitate": 4890,
+            "putere": 392
         }
     ]
 }
