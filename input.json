@@ -1,0 +1,15 @@
+{
+    "baterii": [
+        {
+            "capacitate": 0,
+            "greutate": 0
+        }
+    ],
+    "greutateDrona": 0,
+    "profilEnegieMotoare": [
+        {
+            "intensitate": 0,
+            "putere": 0
+        }
+    ]
+}
