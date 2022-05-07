@@ -27,7 +27,14 @@ class ProfilEnergie:
              index += 1
 
         xInterpolated = numpy.linspace(0, max(xOriginal), numPuncteNoi)
-        return numpy.interp(xInterpolated, xOriginal, yOriginal)
+        yInterpolated = numpy.interp(xInterpolated, xOriginal, yOriginal)
+
+        plt.plot(xInterpolated, yInterpolated, '')
+        plt.xlabel("Putere in grame")
+        plt.ylabel("Curent consumat in mA")
+        plt.show()
+
+        return yInterpolated
 
     def sorteazaDupaPutere(self, valoare):
         return valoare['putere']
